@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: var(--green);
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_ul_li {
+  display: flex;
+  position: relative;
+}
+
+.nav_ul_li_a {
+  font-size: 25px;
+  color: black;
+}
+
+.nav_notification {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: var(--red);
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
