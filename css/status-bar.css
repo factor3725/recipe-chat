@@ -1,0 +1,28 @@
+.status-bar {
+  display: flex;
+  justify-content: center;
+  padding: 8px 8px;
+  font-size: 18px;
+}
+
+.status-bar_col {
+  display: flex;
+  align-items: center;
+  width: 33.33%;
+}
+
+.status-bar_col:nth-child(2) {
+  justify-content: center;
+}
+
+.status-bar_col:last-child {
+  justify-content: flex-end;
+}
+
+.status-bar_col:first-child span {
+  margin-right: 4px;
+}
+
+.status-bar_col:last-child span {
+  margin: 0px 4px;
+}
