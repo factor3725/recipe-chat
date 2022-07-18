@@ -1,0 +1,73 @@
+.chef-box {
+  position: relative;
+}
+
+.chef-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  margin: 0px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chef-top-icon:hover ~ .chef {
+  display: none;
+}
+
+.chef-top-icon:hover {
+  transform: rotateX(180deg);
+  cursor: pointer;
+}
+
+.chef-top_text {
+  font-size: 20px;
+}
+
+.chef-top-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  font-size: 23px;
+  opacity: 0.7;
+  position: absolute;
+  right: 18px;
+  top: 0px;
+}
+
+.chef {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0px 20px;
+}
+
+.chef_right {
+  display: flex;
+  align-items: center;
+}
+
+.chef_left {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.chef_left i {
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+.chef_right_photo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  border-radius: 35%;
+}
+
+.chef_right_name {
+  font-size: 24px;
+}
