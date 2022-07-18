@@ -11,8 +11,22 @@
 @import "screen-info.css";
 @import "screen-user.css";
 @import "screen-chef.css";
+@import "screen-recipe.css";
 
 body {
   background-color: var(--yellow);
   font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: var(--red);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
 }
