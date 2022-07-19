@@ -12,6 +12,7 @@
 @import "screen-user.css";
 @import "screen-chef.css";
 @import "screen-recipe.css";
+@import "find.css";
 
 body {
   background-color: var(--yellow);
