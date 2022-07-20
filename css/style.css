@@ -6,6 +6,7 @@
 @import "status-bar.css";
 @import "nav-bar.css";
 @import "screen-header.css";
+@import "back-header.css";
 
 @import "login.css";
 @import "screen-info.css";
@@ -13,6 +14,8 @@
 @import "screen-chef.css";
 @import "screen-recipe.css";
 @import "find.css";
+@import "more.css";
+@import "chat.css";
 
 body {
   background-color: var(--yellow);

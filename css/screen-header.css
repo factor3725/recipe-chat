@@ -14,6 +14,14 @@
   font-size: 25px;
 }
 
+.screen-header_icon i {
+  color: black;
+}
+
+.fa-gear:hover {
+  color: var(--red);
+}
+
 .screen-header_icon span {
   margin-left: 25px;
 }

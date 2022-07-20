@@ -1,3 +1,8 @@
+.recipe-link {
+  text-decoration: none;
+  color: black;
+}
+
 .recipe {
   display: flex;
   justify-content: space-between;
