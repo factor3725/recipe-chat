@@ -36,11 +36,22 @@
   border-radius: 20px;
 }
 
+@keyframes messageAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .message {
   display: flex;
   align-items: center;
   height: 70px;
   width: 100%;
+  animation: messageAnimation 0.5s ease-in-out forwards;
 }
 
 .message_img {

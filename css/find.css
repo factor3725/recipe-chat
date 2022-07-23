@@ -129,6 +129,18 @@
   border-radius: 10px;
 }
 
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .open-post_right_heart {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -142,4 +154,9 @@
   bottom: 5px;
   right: 5px;
   border-radius: 10px;
+}
+
+.open-post_right_heart:hover i {
+  color: var(--red);
+  animation: heartBeat 0.8s linear infinite;
 }

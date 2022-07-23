@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap");
 
+@import "screen-size.css";
 @import "reset.css";
 @import "variable.css";
 
@@ -7,6 +8,7 @@
 @import "nav-bar.css";
 @import "screen-header.css";
 @import "back-header.css";
+@import "badge.css";
 
 @import "login.css";
 @import "screen-info.css";
@@ -20,17 +22,4 @@
 body {
   background-color: var(--yellow);
   font-family: "Edu VIC WA NT Beginner", cursive;
-}
-
-.badge {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
-  background-color: var(--red);
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
 }

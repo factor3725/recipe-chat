@@ -9,6 +9,16 @@
   background-color: var(--green);
 }
 
+@keyframes navAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .nav_div {
   display: flex;
   justify-content: center;
@@ -16,6 +26,21 @@
   height: 70px;
   width: 70px;
   position: relative;
+  animation: navAnimation 0.3s ease-in-out forwards;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.nav_div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.nav_div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.nav_div:last-child {
+  animation-delay: 0.3s;
 }
 
 .nav_div_a {
@@ -27,8 +52,21 @@
   font-size: 35px;
 }
 
+@keyframes badgeAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav_notification {
   position: absolute;
-  top: 10px;
+  top: 7px;
   right: 10px;
+  animation: badgeAnimation 1.5s ease-in-out infinite;
 }

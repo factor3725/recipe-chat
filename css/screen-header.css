@@ -18,8 +18,18 @@
   color: black;
 }
 
-.fa-gear:hover {
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header_icon .fa-gear:hover {
   color: var(--red);
+  animation: rotateGear 1.5s linear infinite;
 }
 
 .screen-header_icon span {
